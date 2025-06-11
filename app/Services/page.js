@@ -255,12 +255,12 @@ const Service = () => {
             Building Smarter Schools with Advanced ERP Technology
           </h1>
           <p className="text-gray-500 text-sm sm:text-base md:text-lg">
-            "Build smarter schools with our advanced ERP technology, designed to
+            &quot;Build smarter schools with our advanced ERP technology, designed to
             streamline administration, enhance communication, and improve
             student management. Our solution integrates key functionalities,
             ensuring seamless operations, data security, and efficient
             decision-making for better educational outcomes and smoother school
-            operations."
+            operations.&quot;
           </p>
 
           {/* stats */}

@@ -84,7 +84,7 @@ const About = () => {
             improve student management. Our solution integrates key
             functionalities, ensuring seamless operations, data security, and
             efficient decision-making for better educational outcomes and
-            smoother school operations."&quot;
+            smoother school operations.&quot;
           </p>
 
           {/* stats */}
