@@ -7,11 +7,11 @@ import { FiMenu, FiX } from "react-icons/fi"; // Hamburger and close icons
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About Us" },
-  { href: "/services", label: "Services" },
-  { href: "/clientele", label: "Clientele" },
-  { href: "/blogs", label: "Blogs" },
-  { href: "/contact", label: "Contact Us" },
+  { href: "/About", label: "About Us" },
+  { href: "/Services", label: "Services" },
+  { href: "/Clientele", label: "Clientele" },
+  { href: "/Blogs", label: "Blogs" },
+  { href: "/Contact", label: "Contact Us" },
 ];
 
 const Navbar = () => {
