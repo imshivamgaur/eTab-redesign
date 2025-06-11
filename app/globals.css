@@ -1,0 +1,51 @@
+@import "tailwindcss";
+/* In your global CSS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root {
+  --background: #fbfcf8
+  --foreground: #171717;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fbfcf8;
+  font-family: var(--font-nunito), sans-serif;
+  overflow: hidden;
+}
+
+
+@keyframes infinite-scroll {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-40%); }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 10s linear infinite;
+}
+
+
+/* For modern browsers */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(6, 6, 6); /* light background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000; /* light gray thumb */
+  border-radius: 10px;
+}
+
+/* Optional: for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7c7c7c #f1f1f1;
+}
