@@ -10,7 +10,7 @@ import { useModal } from "../context/ModelContext";
 import ContactModal from "../components/ContactModel";
 import { motion } from "framer-motion";
 
-const about = () => {
+const About = () => {
   const { openModal, isModalOpen, setIsModalOpen } = useModal();
 
   const fadeInUp = {
@@ -130,4 +130,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

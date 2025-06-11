@@ -9,7 +9,7 @@ import { useModal } from "../context/ModelContext";
 import { motion } from "framer-motion";
 import Services from "../components/Services";
 
-const services = () => {
+const Services = () => {
   const { openModal, closeModal, isModalOpen, setIsModalOpen } = useModal();
 
   const fadeInUp = {
@@ -300,4 +300,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

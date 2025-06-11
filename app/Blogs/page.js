@@ -10,7 +10,7 @@ import ContactModal from "../components/ContactModel";
 import { useModal } from "../context/ModelContext";
 import { motion } from "framer-motion";
 
-const blog = () => {
+const Blog = () => {
   const { openModal, closeModal, isModalOpen, setIsModalOpen } = useModal();
 
   const fadeInUp = {
@@ -52,4 +52,4 @@ const blog = () => {
   );
 };
 
-export default blog;
+export default Blog;

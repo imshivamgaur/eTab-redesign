@@ -11,7 +11,7 @@ import ContactModal from "../components/ContactModel";
 import { useModal } from "../context/ModelContext";
 import { motion } from "framer-motion";
 
-const clientele = () => {
+const Clientele = () => {
   const { openModal, closeModal, isModalOpen, setIsModalOpen } = useModal();
 
   const fadeInUp = {
@@ -55,4 +55,4 @@ const clientele = () => {
   );
 };
 
-export default clientele;
+export default Clientele;
