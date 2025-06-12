@@ -149,7 +149,7 @@ const Service = () => {
       ],
     },
     {
-      path: "/images/pngs/accessibility.png",
+      path: "/images/pngs/accessibility-image.png",
       text: "Smart Technology",
 
       provides: [
@@ -255,12 +255,12 @@ const Service = () => {
             Building Smarter Schools with Advanced ERP Technology
           </h1>
           <p className="text-gray-500 text-sm sm:text-base md:text-lg">
-            &quot;Build smarter schools with our advanced ERP technology, designed to
-            streamline administration, enhance communication, and improve
-            student management. Our solution integrates key functionalities,
-            ensuring seamless operations, data security, and efficient
-            decision-making for better educational outcomes and smoother school
-            operations.&quot;
+            &quot;Build smarter schools with our advanced ERP technology,
+            designed to streamline administration, enhance communication, and
+            improve student management. Our solution integrates key
+            functionalities, ensuring seamless operations, data security, and
+            efficient decision-making for better educational outcomes and
+            smoother school operations.&quot;
           </p>
 
           {/* stats */}
