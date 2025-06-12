@@ -27,7 +27,7 @@ const Clientele = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col pt-18">
       <div className="w-full p-8 md:px-20 md:py-20 bg-gradient-to-br from-blue-200 to-transparent ">
         <motion.h1
           className="text-5xl font-bold"
