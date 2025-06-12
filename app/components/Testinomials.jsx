@@ -41,14 +41,14 @@ const Testimonials = () => {
         "On behalf of KC Global School, I would like to express my sincere gratitude and appreciation for the exceptional capabilities and functionality of the eTab ERP software. Implementing this system has been a transformative step in streamlining our administrative processes, enhancing productivity, and ensuring smooth operations .",
     },
     {
-      path: "/images/Clients/GDgoneka.png",
+      path: "/images/Clients/GDGoneka.png",
       designation: "PRINCIPAL",
       org: "G.D.G.I School",
       feedback:
         "ETab ERP has significantly improved our school's administrative efficiency and communication. The user-friendly interface and comprehensive features have made managing day-to-day operations much easier. The support team is always responsive and helpful. Highly recommended!s",
     },
     {
-      path: "/images/Clients/grenField.png",
+      path: "/images/Clients/GrenField.png",
       designation: "PRINCIPAL",
       org: "Green Field School ",
       feedback:

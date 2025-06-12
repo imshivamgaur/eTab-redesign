@@ -21,7 +21,7 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <div className="sticky top-0 z-50 bg-[#fbfcf82c] backdrop-blur-2xl shadow-md w-full px-5 md:px-20 flex items-center justify-between h-18">
+    <div className="fixed top-0 z-50 bg-[#fbfcf82c] backdrop-blur-2xl shadow-md w-full px-5 md:px-20 flex items-center justify-between h-18">
       {/* Logo */}
       <Link href="/" onClick={() => setMenuOpen(false)}>
         <img src="/images/eTab.png" className="h-12 md:h-14" alt="eTab-logo" />

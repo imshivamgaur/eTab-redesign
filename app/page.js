@@ -30,7 +30,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen pt-18">
       <Hero />
       {/*1st section */}
       <About />
