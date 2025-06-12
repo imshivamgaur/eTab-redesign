@@ -2,6 +2,7 @@
 
 import { FaBuilding, FaGlobe, FaTasks, FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { useModal } from "../context/ModelContext";
 
 const StatsSection = () => {
   const fadeInUp = {
@@ -15,6 +16,8 @@ const StatsSection = () => {
       },
     },
   };
+
+  const { openModal } = useModal();
 
   return (
     <motion.div
@@ -30,7 +33,7 @@ const StatsSection = () => {
           <FaBuilding className="text-4xl sm:text-5xl" />
           <div className="flex flex-col">
             <span className="text-xl sm:text-2xl md:text-3xl font-bold">
-              6,000+
+              300+
             </span>
             <span className="text-sm sm:text-base md:text-lg">
               Schools & Colleges
@@ -61,7 +64,10 @@ const StatsSection = () => {
         </div>
 
         {/* Join Now Button */}
-        <button className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-md text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-300">
+        <button
+          onClick={() => openModal()}
+          className="flex w-fit cursor-pointer items-center gap-2 hover:gap-3 bg-orange-400 text-white  px-4 py-2 rounded-md text-sm sm:text-base md:text-lg font-medium hover:bg-orange-500  transition-all duration-300"
+        >
           Join Now
           <FaArrowRight />
         </button>

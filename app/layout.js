@@ -22,8 +22,36 @@ const nunito = Nunito({
 });
 
 export const metadata = {
-  title: "eTab ERP Solutions",
-  description: "School management software for modern education",
+  title: "eTab ERP Solutions | Best School ERP & AI Software in India",
+  description:
+    "eTab offers advanced School ERP and AI-based automation solutions for schools, colleges, and educational institutions. Simplify admissions, fees, attendance, and more.",
+  keywords:
+    "School ERP, School Management Software, AI for schools, Education ERP, eTab ERP, student management system, fee management, school automation, admission software",
+  openGraph: {
+    title: "eTab ERP Solutions",
+    description:
+      "Advanced School ERP and AI Software to manage your entire institution.",
+    url: "https://etaberp.in",
+    siteName: "eTab ERP",
+    images: [
+      {
+        url: "https://etaberp.in/images/eTab.png",
+        width: 1200,
+        height: 630,
+        alt: "eTab ERP Solutions Banner",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "eTab ERP Solutions",
+    description: "Best School ERP and AI-based Automation Solutions",
+    images: ["https://etaberp.in/images/eTab.png"],
+  },
+  icons: {
+    icon: "/fv.png",
+  },
 };
 
 export default function RootLayout({ children }) {

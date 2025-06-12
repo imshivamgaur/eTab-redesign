@@ -11,12 +11,9 @@ import { useModal } from "../context/ModelContext";
 
 const Hero = () => {
   const images = [
-    "/images/slider1.png",
-    "/images/slider1.png",
-    "/images/slider1.png",
-    "/images/slider1.png",
-    "/images/slider1.png",
-    "/images/slider1.png",
+    "/images/slider2.png",
+    "/images/slider3.png",
+    "/images/slider4.png",
   ];
 
   const [current, setCurrent] = useState(0);

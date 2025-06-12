@@ -49,6 +49,11 @@ const Services = () => {
           heading: "Attendance Manager",
           desc: "Attendance Manager simplifies the process of tracking student attendance by automating attendance recording, generating reports, and managing leave requests. It ensures that schools can manage attendance tasks efficiently, reducing manual work and errors, and providing a streamlined, user-friendly interface for handling all attendance-related tasks.",
         },
+        {
+          path: "/images/schoolErp_pngs/erp-9.png",
+          heading: "Expense Manager",
+          desc: "Expense Manager helps schools track and manage their expenditures by automating expense entry, categorizing costs, and generating detailed financial reports. It reduces the chances of overspending, ensures transparency in financial activities, and offers a user-friendly interface to monitor and control expenses effectively.",
+        },
       ],
     },
     {

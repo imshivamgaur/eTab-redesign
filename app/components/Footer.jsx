@@ -174,7 +174,7 @@ const Footer = () => {
           <div className="relative group">
             <iframe
               title="eTab Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7010.01989617597!2d77.49703597334402!3d28.47422146284183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea41dc0e4a81%3A0x6b15c96cc45d0b7e!2sDIGI%20SHIKSHA%20-%20School%20College%20ERP%20Software!5e0!3m2!1sen!2sin!4v1717943072993!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.0!2d77.4889615!3d28.4722284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceb193588358f%3A0x8274cec5a1321578!2sGL%20Bajaj%20Institute%20of%20Technology%20%26%20Management!5e0!3m2!1sen!2sin!4v1739448902993!5m2!1sen!2sin"
               width="100%"
               height="220"
               allowFullScreen=""
