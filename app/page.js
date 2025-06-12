@@ -21,13 +21,13 @@ const Home = () => {
 
   // Option 1: Open modal automatically on page load
   useEffect(() => {
-    setIsModalOpen(true);
-  }, [setIsModalOpen]);
+    const hasModalOpened = sessionStorage.getItem("modalShown");
 
-  // Option 2: Function to open modal via button
-  // const openModal = () => {
-  //   setIsModalOpen(true);
-  // };
+    if (!hasModalOpened) {
+      setIsModalOpen(true); // open modal
+      sessionStorage.setItem("modalShown", "true"); // set flag
+    }
+  }, []);
 
   return (
     <div className="w-full min-h-screen">

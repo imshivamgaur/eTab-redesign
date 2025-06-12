@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { ModalProvider } from "./context/ModelContext";
 import { ToastContainer } from "react-toastify";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Configure Poppins
 const poppins = Poppins({
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <ModalProvider>{children}</ModalProvider>
         <ToastContainer position="top-right" theme="light" />
+        <ScrollToTop />
       </body>
     </html>
   );

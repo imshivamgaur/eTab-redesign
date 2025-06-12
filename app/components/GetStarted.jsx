@@ -30,8 +30,8 @@ const GetStarted = () => {
       {/* Left Content */}
       <motion.div variants={fadeInUp} className="space-y-6">
         <div>
-          <h2 className="text-4xl md:text-5xl font-extrabold flex items-center gap-3">
-            <FaRocket className="text-orange-400 text-3xl" />
+          <h2 className="text-3xl md:text-4xl xl:text-5xl font-extrabold flex items-center gap-3">
+            <FaRocket className="text-orange-400 text-2xl md:text-3xl xl:text-4xl" />
             <span>Get Started for Free Today</span>
           </h2>
           <div className="h-1 w-20 bg-orange-400 mt-3 rounded-full" />

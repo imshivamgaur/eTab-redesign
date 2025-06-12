@@ -96,8 +96,8 @@ const About = () => {
             with full accuracy and in stipulated time frame.
           </p>
           <Link
-            href="/about"
-            className="bg-orange-400 w-fit hover:bg-orange-500 cursor-pointer text-white px-6 py-2 rounded-xl flex items-center gap-2 hover:gap-5 transition-all duration-300"
+            href="/About"
+            className="bg-orange-400 hover:bg-orange-500 w-fit md:py-3 md:px-8 cursor-pointer text-white px-6 py-2 rounded-xl flex items-center gap-2 hover:gap-5 transition-all duration-300"
           >
             Know More
             <span>

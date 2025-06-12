@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="flex items-center gap-5 md:gap-8">
         <Link
           href="tel:+918299898209"
-          className="lg:hidden bg-orange-400 text-sm selection:bg-blue-500 hover:bg-orange-500 !text-white p-2 rounded-xl transition-all duration-300"
+          className="lg:hidden bg-orange-400 text-sm selection:bg-blue-500 hover:bg-orange-500 !text-white p-2 rounded-xl transition-all duration-500"
         >
           +91 8299898209
         </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <li key={link.href}>
             <Link
               href={link.href}
-              className={`transition-all duration-300 ${
+              className={`transition-all duration-500 ${
                 pathname === link.href
                   ? "text-orange-500"
                   : "text-black hover:text-orange-500"
@@ -62,7 +62,7 @@ const Navbar = () => {
         ))}
         <Link
           href="tel:+918299898209"
-          className="bg-orange-400 selection:bg-blue-500 hover:bg-orange-500 !text-white p-2 rounded-xl transition-all duration-300"
+          className="bg-orange-400 selection:bg-blue-500 hover:bg-orange-500 !text-white p-2 rounded-xl transition-all duration-500 hover:scale-103"
         >
           +91 8299898209
         </Link>

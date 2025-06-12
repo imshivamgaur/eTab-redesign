@@ -55,25 +55,29 @@ const Footer = () => {
           </p>
           <div className="flex gap-4 mt-6">
             <a
-              href="#"
+              target="blank"
+              href="https://api.whatsapp.com/send/?phone=8299898209&text&type=phone_number&app_absent=0"
               className="text-gray-400 hover:text-green-500 transition-colors duration-300"
             >
               <FaWhatsapp className="text-xl" />
             </a>
             <a
-              href="#"
-              className="text-gray-400 hover:text-blue-600 transition-colors duration-300"
+              target="blank"
+              href="https://www.facebook.com/people/Digivity/61555608681015/?rdid=1ndTU6CB7a8UtsBU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GTohbqgC1%2F"
+              className="text-gray-400 hover:text-orange-500 transition-colors duration-300"
             >
               <FaFacebookF className="text-xl" />
             </a>
             <a
-              href="#"
+              target="blank"
+              href="https://www.instagram.com/digivity.tech?igsh=bGloMXk5cXI0MmJh"
               className="text-gray-400 hover:text-pink-500 transition-colors duration-300"
             >
               <FaInstagram className="text-xl" />
             </a>
             <a
-              href="#"
+              target="blank"
+              href="https://www.linkedin.com/company/digivity-technology-private-limited/"
               className="text-gray-400 hover:text-blue-700 transition-colors duration-300"
             >
               <FaLinkedinIn className="text-xl" />
@@ -88,37 +92,34 @@ const Footer = () => {
           </h4>
           <ul className="space-y-4 text-sm">
             <li className="flex items-center gap-3 group">
-              <FaHome className="text-gray-500 group-hover:text-blue-600 transition-colors duration-300" />
+              <FaHome className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
               <a
-                href="#"
-                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors duration-300"
+                href="/"
+                className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 Home
               </a>
             </li>
             <li className="flex items-center gap-3 group">
-              <FaInfoCircle className="text-gray-500 group-hover:text-blue-600 transition-colors duration-300" />
+              <FaInfoCircle className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
               <a
-                href="#"
-                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors duration-300"
+                href="/About"
+                className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 About
               </a>
             </li>
             <li className="flex items-center gap-3 group">
-              <FaGraduationCap className="text-gray-500 group-hover:text-blue-600 transition-colors duration-300" />
-              <a
-                href="#"
-                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors duration-300"
-              >
+              <FaGraduationCap className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
+              <a className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300">
                 Courses
               </a>
             </li>
             <li className="flex items-center gap-3 group">
-              <FaPhone className="text-gray-500 group-hover:text-blue-600 transition-colors duration-300" />
+              <FaPhone className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
               <a
-                href="#"
-                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors duration-300"
+                href="/Contact"
+                className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 Contact
               </a>
@@ -133,38 +134,32 @@ const Footer = () => {
           </h4>
           <ul className="space-y-4 text-sm">
             <li className="flex items-center gap-3 group">
-              <FaHeadphones className="text-gray-500 group-hover:text-blue-600 transition-colors duration-300" />
+              <FaHeadphones className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
               <a
-                href="#"
-                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors duration-300"
+                href="/Contact"
+                className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 Help Desk
               </a>
             </li>
             <li className="flex items-center gap-3 group">
-              <FaQuestionCircle className="text-gray-500 group-hover:text-blue-600 transition-colors duration-300" />
-              <a
-                href="#"
-                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors duration-300"
-              >
+              <FaQuestionCircle className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
+              <a className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300">
                 FAQs
               </a>
             </li>
             <li className="flex items-center gap-3 group">
-              <FaCommentDots className="text-gray-500 group-hover:text-blue-600 transition-colors duration-300" />
+              <FaCommentDots className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
               <a
-                href="#"
-                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors duration-300"
+                href="/Contact"
+                className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 Send Feedback
               </a>
             </li>
             <li className="flex items-center gap-3 group">
-              <FaShieldAlt className="text-gray-500 group-hover:text-blue-600 transition-colors duration-300" />
-              <a
-                href="#"
-                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors duration-300"
-              >
+              <FaShieldAlt className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
+              <a className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300">
                 Privacy Policy
               </a>
             </li>
@@ -197,17 +192,11 @@ const Footer = () => {
           © 2025 Digivity Technology Private Limited
         </p>
         <p className="text-xs mt-2">
-          <a
-            href="#"
-            className="text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-300"
-          >
+          <a className="text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-300">
             Privacy Policy
           </a>{" "}
           |{" "}
-          <a
-            href="#"
-            className="text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-300"
-          >
+          <a className="text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-300">
             Terms & Conditions
           </a>
         </p>
