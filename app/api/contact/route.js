@@ -24,7 +24,7 @@ export async function POST(request) {
     // Email options
     const mailOptions = {
       from: process.env.EMAIL_USER, // Sender address
-      to: "shivam24august@gmail.com", // Replace with your recipient email (e.g., your business email)
+      to: "digivity.in@gmail.com", // Replace with your recipient email (e.g., your business email)
       subject: `New Message Contact from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\Message: ${message}`,
       html: `

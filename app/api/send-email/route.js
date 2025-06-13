@@ -26,8 +26,8 @@ export async function POST(request) {
     // Email options
     const mailOptions = {
       from: process.env.EMAIL_USER, // Sender address
-      to: "shivam24august@gmail.com", // Replace with your recipient email (e.g., your business email)
-      subject: `New Contact Form Submission from ${fullName}`,
+      to: "digivity.in@gmail.com", // Replace with your recipient email (e.g., your business email)
+      subject: `New Demo Request From ${fullName}`,
       text: `Full Name: ${fullName}\nPhone Number: ${phoneNumber}\nEmail: ${email}\nSchool Name: ${schoolName}\nService: ${service}`,
       html: `
         <div style="font-family: Arial, sans-serif; background-color: #f9fafb; padding: 20px; color: #333;">
