@@ -147,7 +147,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="Enter you Email Address"
+                  placeholder="Enter your Email Address"
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -167,7 +167,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                   type="text"
                   id="schoolName"
                   name="schoolName"
-                  placeholder="Enter you school name"
+                  placeholder="Enter your school name"
                   value={formData.schoolName}
                   onChange={handleChange}
                   required
