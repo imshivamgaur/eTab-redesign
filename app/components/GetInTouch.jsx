@@ -17,12 +17,12 @@ const GetInTouch = () => {
     {
       icon: <FaPhoneAlt className="text-white text-2xl" />,
       title: "Phone:",
-      details: ["+91 9454895240", "+91 8130224328"],
+      details: ["+91 8299898209", "+91 9454895240"],
     },
     {
       icon: <FaEnvelope className="text-white text-2xl" />,
       title: "Email:",
-      details: ["info@digivity.in", "etaberp.in@gmail.com"],
+      details: ["digivity.in@gmail.com"],
     },
     {
       icon: <FaGlobe className="text-white text-2xl" />,
