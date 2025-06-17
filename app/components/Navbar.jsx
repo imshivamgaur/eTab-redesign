@@ -21,7 +21,7 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <div className="fixed top-0 z-50 bg-[#fbfcf82c] backdrop-blur-2xl shadow-md w-full px-5 md:px-20 flex items-center justify-between h-18">
+    <div className="fixed top-0 z-50 bg-[#ffffffa4] backdrop-blur-2xl shadow-md w-full px-5 md:px-20 flex items-center justify-between h-18">
       {/* Logo */}
       <Link href="/" onClick={() => setMenuOpen(false)}>
         <img src="/images/eTab.png" className="h-12 md:h-14" alt="eTab-logo" />
@@ -72,7 +72,7 @@ const Navbar = () => {
 
       <>
         <div
-          className={`absolute z-40 top-16 left-0 right-0 bg-white backdrop-blur-[10px] lg:hidden flex items-center flex-col gap-4 py-8 transition-all duration-500 ease-out ${
+          className={`absolute z-40 top-18 left-0 right-0 bg-white backdrop-blur-2xl lg:hidden flex items-center flex-col gap-4 py-8 transition-all duration-500 ease-out ${
             menuOpen
               ? "translate-x-[0%] opacity-100 pointer-events-auto"
               : "translate-x-[20%] opacity-0 pointer-events-none"

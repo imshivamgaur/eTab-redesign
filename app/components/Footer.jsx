@@ -16,6 +16,7 @@ import {
   FaShieldAlt,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Footer = () => {
   const fadeInUp = {
@@ -93,36 +94,31 @@ const Footer = () => {
           <ul className="space-y-4 text-sm">
             <li className="flex items-center gap-3 group">
               <FaHome className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
-              <a
+              <Link
                 href="/"
                 className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="flex items-center gap-3 group">
               <FaInfoCircle className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
-              <a
+              <Link
                 href="/About"
                 className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 About
-              </a>
+              </Link>
             </li>
-            <li className="flex items-center gap-3 group">
-              <FaGraduationCap className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
-              <a className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300">
-                Courses
-              </a>
-            </li>
+
             <li className="flex items-center gap-3 group">
               <FaPhone className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
-              <a
+              <Link
                 href="/Contact"
                 className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -135,33 +131,30 @@ const Footer = () => {
           <ul className="space-y-4 text-sm">
             <li className="flex items-center gap-3 group">
               <FaHeadphones className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
-              <a
+              <Link
                 href="/Contact"
                 className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 Help Desk
-              </a>
-            </li>
-            <li className="flex items-center gap-3 group">
-              <FaQuestionCircle className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
-              <a className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300">
-                FAQs
-              </a>
+              </Link>
             </li>
             <li className="flex items-center gap-3 group">
               <FaCommentDots className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
-              <a
+              <Link
                 href="/Contact"
                 className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
               >
                 Send Feedback
-              </a>
+              </Link>
             </li>
             <li className="flex items-center gap-3 group">
               <FaShieldAlt className="text-gray-500 group-hover:text-orange-500 transition-colors duration-300" />
-              <a className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300">
+              <Link
+                href={"/PrivacyPolicy"}
+                className="text-gray-600 hover:text-orange-500 hover:underline transition-colors duration-300"
+              >
                 Privacy Policy
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -192,9 +185,12 @@ const Footer = () => {
           © 2025 Digivity Technology Private Limited
         </p>
         <p className="text-xs mt-2">
-          <a className="text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-300">
+          <Link
+            href="/PrivacyPolicy"
+            className="text-blue-600 hover:underline  hover:text-blue-800 transition-colors duration-300"
+          >
             Privacy Policy
-          </a>{" "}
+          </Link>{" "}
           |{" "}
           <a className="text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-300">
             Terms & Conditions

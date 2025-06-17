@@ -59,22 +59,22 @@ const Contact = () => {
     }
   };
 
- const fadeInUp = {
-  hidden: { opacity: 0, y: 30 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.43, 0.13, 0.23, 0.96], // smooth custom easing
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: [0.43, 0.13, 0.23, 0.96], // smooth custom easing
+      },
     },
-  },
-};
+  };
 
   return (
     <div className="min-h-screen flex flex-col pt-18">
       <div className="w-full p-8 md:px-20 md:py-20 bg-gradient-to-br from-blue-200 to-transparent ">
-        <h1 className="text-5xl font-bold">Our Services</h1>
+        <h1 className="text-5xl font-bold">Contact Us</h1>
         <Navigation />
       </div>
       <section className="bg-blue-50 py-16">
@@ -183,10 +183,7 @@ const Contact = () => {
 
       <GetStarted />
       <Footer />
-      <ContactModal
-        isOpen={isModalOpen}
-        onClose={() => (false)}
-      />
+      <ContactModal isOpen={isModalOpen} onClose={() => false} />
     </div>
   );
 };

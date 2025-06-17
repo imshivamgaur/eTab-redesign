@@ -206,7 +206,8 @@ const ContactModal = ({ isOpen, onClose }) => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="bg-orange-400 flex items-center justify-center gap-2 hover:gap-3 transition-all duration-500 font-semibold cursor-pointer text-white px-4 py-3 rounded-md hover:bg-orange-500  mt-4"
+                className="bg-orange-400 flex items-center justify-center gap-2 hover:gap-3 transition-all duration-500 font-semibold cursor-pointer text-white px-4 py-3 rounded-md hover:bg-orange-500 disabled:opacity-50  mt-4"
+                disabled={isSubmitting}
               >
                 {isSubmitting ? "Sending" : "Get Demo "} <FaArrowRight />
               </button>
