@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
@@ -19,7 +20,7 @@ export default function NotFound() {
         404 - Page Not Found
       </h1>
       <p className="text-lg mb-2">
-        Sorry, the page you're looking for doesn't exist.
+        Sorry, the page you&apos;re looking for doesn&apos;t exist.
       </p>
       <p className="text-sm text-gray-500">
         Redirecting to home in 3 seconds...
